@@ -5,8 +5,11 @@
 }
 
 body{
-  height: 85vh;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   background: linear-gradient(to right, #232526, #414345);
 }
 
@@ -54,6 +57,9 @@ body{
   transform: rotateY(180deg);
 }
 
+.button-box{
+  margin-bottom: 25px;
+}
 
 .button-75 {
   align-items: center;
@@ -81,11 +87,8 @@ body{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 50px;
-  margin: auto;
+  margin-bottom: 5px;
+  
 }
 
 .button-75:active {
@@ -105,7 +108,23 @@ body{
   opacity: .75;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 700px) {
+  body{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 640px;
+  }
+
+  .button-box{
+    margin-top: 15px;
+  }
+
+  .memory-game{
+    height: 95%;
+    width: 95%;
+  }
+
   .button-75 {
     font-size: 15px;
     height: 50px;
@@ -129,9 +148,9 @@ body{
   display: flex;
   flex-direction: column;
   font-family: "Codec cold",sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
-  height: 54px;
+  height: 40px;
   justify-content: center;
   letter-spacing: .4px;
   line-height: 1;
@@ -163,10 +182,10 @@ body{
   opacity: .75;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 700px) {
   .button-75 {
-    font-size: 15px;
-    height: 45px;
+    font-size: 14px;
+    height: 40px;
   }
 
   .button-75 span {
