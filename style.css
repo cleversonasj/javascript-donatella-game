@@ -114,19 +114,19 @@ body{
   }
 
   .memory-game{
-    height: 90%;
+    height: 75%;
     width: 100%;
   }
 
 
   .button-box{
-    height: 10%;
+    height: 20%;
     margin-top: 5px;
   }
 
   .button-75 {
     font-size: 15px;
-    height: 50px;
+    height: 30px;
   }
 
   .button-75 span {
