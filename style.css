@@ -14,8 +14,8 @@ body{
 }
 
 .memory-game{
-  height: 540px;
-  width: 540px;
+  height: 570px;
+  width: 570px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -110,19 +110,18 @@ body{
 
 @media screen and (max-width: 850px) {
   body{
-    height: 100vh;
     width: 100%;
   }
 
   .memory-game{
-    height: 90vh;
+    height: 90%;
     width: 100%;
   }
 
 
   .button-box{
-    height: 10vh;
-    margin-top: 15px;
+    height: 10%;
+    margin-top: 5px;
   }
 
   .button-75 {
@@ -133,6 +132,13 @@ body{
   .button-75 span {
     line-height: 50px;
   }
+}
+
+@media screen and (max-height: 450px){
+  body{
+    min-height: 620px;
+  }
+  
 }
 
 
