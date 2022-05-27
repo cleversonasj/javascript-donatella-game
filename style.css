@@ -57,7 +57,7 @@ body{
 }
 
 .button-box{
-  margin-bottom: 25px;
+  margin-top: 18px;
 }
 
 .button-75 {
@@ -121,7 +121,6 @@ body{
 
   .button-box{
     height: 60px;
-    margin-top: 15px;
   }
 
   .button-75 {
@@ -140,5 +139,3 @@ body{
   }
   
 }
-
-
