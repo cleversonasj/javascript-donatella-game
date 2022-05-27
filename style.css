@@ -58,35 +58,36 @@ body{
 
 .button-box{
   margin-top: 18px;
+  height: 60px;
 }
 
 .button-75 {
   align-items: center;
   background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
   border: 0;
-  border-radius: 10px;
+  border-radius: 5px;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   font-family: "Codec cold",sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
-  height: 54px;
+  height: 30px;
   justify-content: center;
   letter-spacing: .4px;
   line-height: 1;
   max-width: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 3px;
   text-decoration: none;
   text-transform: uppercase;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-bottom: 5px;
+  margin: 15px 0;
   
 }
 
@@ -114,23 +115,11 @@ body{
   }
 
   .memory-game{
+    margin-top: 15px;
     height: 80%;
     width: 100%;
   }
 
-
-  .button-box{
-    height: 60px;
-  }
-
-  .button-75 {
-    font-size: 15px;
-    height: 30px;
-  }
-
-  .button-75 span {
-    line-height: 50px;
-  }
 }
 
 @media screen and (max-height: 450px){
