@@ -16,7 +16,6 @@ body{
 .memory-game{
   height: 570px;
   width: 570px;
-  margin: auto;
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;
@@ -111,17 +110,18 @@ body{
 @media screen and (max-width: 850px) {
   body{
     width: 100%;
+    justify-content: flex-start;
   }
 
   .memory-game{
-    height: 75%;
+    height: 80%;
     width: 100%;
   }
 
 
   .button-box{
-    height: 20%;
-    margin-top: 5px;
+    height: 60px;
+    margin-top: 15px;
   }
 
   .button-75 {
