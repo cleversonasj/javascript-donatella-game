@@ -114,6 +114,7 @@ body{
   }
 
   .memory-game{
+    height: 100%;
     width: 100%;
   }
 
@@ -131,3 +132,5 @@ body{
     line-height: 50px;
   }
 }
+
+
