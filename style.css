@@ -18,7 +18,6 @@ body{
   width: 500px;
   display: flex;
   flex-wrap: wrap;
-  perspective: 1000px;
 }
 
 .card{
@@ -114,10 +113,9 @@ body{
   }
 
   .memory-game{
-    margin-top: 15px;
-    height: 75%;
-    width: 87%;
-    max-width: 500px;
+    width: 100%;
+    height: 60%;
+    margin-top: 25%;
   }
 
 }
