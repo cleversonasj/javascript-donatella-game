@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>.: Donatella's Game :.</title>
+</head>
+<body>
+
+  <img src="assets/logo.png" alt="Logo" width="300px">
+  <audio id="songBtn" controls>
+    <source src="assets/win.mp3" type="audio/mp3">
+  </audio>
+
+  <main class="memory-game">
+
+    <div class="card" data-card="1">
+      <img src="./assets/01.png" alt="Frente da Carta" class="card-front" />
+      <img src="./assets/back_card.png" alt="Verso da Carta" class="card-back" />
+    </div>
+
+    <div class="card" data-card="1">
+      <img src="./assets/01.png" alt="Frente da Carta" class="card-front" />
+      <img src="./assets/back_card.png" alt="Verso da Carta" class="card-back" />
+    </div>
+
+    <div class="card" data-card="2">
+      <img src="./assets/02.png" alt="Frente da Carta" class="card-front" />
+      <img src="./assets/back_card.png" alt="Verso da Carta" class="card-back" />
+    </div>
+
+    <div class="card" data-card="2">
+      <img src="./assets/02.png" alt="Frente da Carta" class="card-front" />
+      <img src="./assets/back_card.png" alt="Verso da Carta" class="card-back" />
+    </div>
+
+    <div class="card" data-card="3">
+      <img src="./assets/03.png" alt="Frente da Carta" class="card-front" />
+      <img src="./assets/back_card.png" alt="Verso da Carta" class="card-back" />
+    </div>
+
+    <div class="card" data-card="3">
+      <img src="./assets/03.png" alt="Frente da Carta" class="card-front" />
+      <img src="./assets/back_card.png" alt="Verso da Carta" class="card-back" />
+    </div>
+
+      <div class="card" data-card="4">
+        <img src="./assets/04.png" alt="Frente da Carta" class="card-front" />
+        <img src="./assets/back_card.png" alt="Verso da Carta" class="card-back" />
+      </div>
+  
+      <div class="card" data-card="4">
+        <img src="./assets/04.png" alt="Frente da Carta" class="card-front" />
+        <img src="./assets/back_card.png" alt="Verso da Carta" class="card-back" />
+      </div>
+  
+      <div class="card" data-card="5">
+        <img src="./assets/05.png" alt="Frente da Carta" class="card-front" />
+        <img src="./assets/back_card.png" alt="Verso da Carta" class="card-back" />
+      </div>
+  
+      <div class="card" data-card="5">
+        <img src="./assets/05.png" alt="Frente da Carta" class="card-front" />
+        <img src="./assets/back_card.png" alt="Verso da Carta" class="card-back" />
+      </div>
+  
+      <div class="card" data-card="6">
+        <img src="./assets/06.png" alt="Frente da Carta" class="card-front" />
+        <img src="./assets/back_card.png" alt="Verso da Carta" class="card-back" />
+      </div>
+  
+      <div class="card" data-card="6">
+        <img src="./assets/06.png" alt="Frente da Carta" class="card-front" />
+        <img src="./assets/back_card.png" alt="Verso da Carta" class="card-back" />
+      </div>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="modalContent">
+      <img src="assets/win.png" alt="Donatella">
+      <h1>Humano, parabéns! Você venceu!</h1>
+      <button class="button-82-pushable" role="button" onclick="window.location.reload()">
+        <span class="button-82-shadow"></span>
+        <span class="button-82-edge"></span>
+        <span class="button-82-front text">
+          Reiniciar
+        </span>
+      </button>
+    </div>
+  </div>
+  
+  <button class="button-82-pushable" role="button" onclick="window.location.reload()">
+    <span class="button-82-shadow"></span>
+    <span class="button-82-edge"></span>
+    <span class="button-82-front text">
+      Reiniciar
+    </span>
+  </button>
+  
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
